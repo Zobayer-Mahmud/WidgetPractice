@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:practice_project/animatedPosition.dart';
+import 'package:practice_project/animated_rotation.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.purple,
       ),
       debugShowCheckedModeBanner: false,
-      home: const AnimatedPositionWidget(),
+      home: const AnimatedRotationWidget(),
     );
   }
 }
