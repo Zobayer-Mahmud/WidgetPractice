@@ -1,11 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:practice_project/animatedBuilderWidget.dart';
-import 'package:practice_project/animatedCrossFadeWidget.dart';
-import 'package:practice_project/animatedPadding.dart';
-import 'package:practice_project/animatedPhysicalModel.dart';
 import 'package:practice_project/animatedPosition.dart';
-import 'package:practice_project/animated_container_widget.dart';
-import 'package:practice_project/animated_opacity_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,7 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.purple,
       ),
       debugShowCheckedModeBanner: false,
-      home: const AnimatedPositonWidget(),
+      home: const AnimatedPositionWidget(),
     );
   }
 }
